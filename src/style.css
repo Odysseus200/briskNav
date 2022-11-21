@@ -1,0 +1,107 @@
+html,body{ 
+	width:100%;
+	height:100%;
+}
+body{background-image: -webkit-linear-gradient(321deg,#10c2fe 27%,#7278dc 55%,#9532ba 87%,#9c20b4 100%);}
+canvas{
+  display: block;
+}
+
+.container {
+  width: 900px;
+  height: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.icons-list {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.info {
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 12px;
+  padding: 20px;
+  white-space: nowrap;
+}
+.info > span {
+  margin-top: 30px;
+  color: #fff;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 600px) {
+body{background-image: -webkit-linear-gradient(200deg,#10c2fe 27%,#7278dc 55%,#9532ba 87%,#9c20b4 100%);}
+  .container {
+    width: 600px;
+    height:600px;
+    position: absolute;
+    top: 45%;
+    left: 47.5%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  .icons-list {
+    margin-top: 0px;
+    display: flex;
+  }
+  .info {
+    position: relative;
+    width: 199px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    white-space: nowrap;
+    left: 10px;
+  }
+  .info > span{
+    font-size: 16px;
+  }
+ .icon{
+  width: 50px;
+ }
+}
+@media screen and (max-width:1024px) {
+  body{background-image: -webkit-linear-gradient(123deg,#10c2fe 27%,#7278dc 55%,#9532ba 87%,#9c20b4 100%);}
+    .container {
+      width: 600px;
+      height:600px;
+      position: absolute;
+      top: 45%;
+      left: 47.5%;
+      transform: translateX(-50%) translateY(-50%);
+    }
+    .icons-list {
+      margin-top: 0px;
+      display: flex;
+    }
+    .info {
+      box-sizing: border-box;
+      width: 199px;
+      height: 150px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 1px;
+      padding: 1px;
+      white-space: nowrap;
+    }
+    .info > span{
+      font-size: 16px;
+    }
+   .icon{
+    width: 50px;
+   }
+  }
