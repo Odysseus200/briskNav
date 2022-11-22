@@ -14,7 +14,7 @@
           class="shake-opacity shake-freeze icon"
         />
         <span class="s1">SFL后台管理系统(React)</span>
-        <span class="hide-for-medium-only">React后台管理系统</span>
+        <span class="hideForMedium">React后台管理系统</span>
       </div>
       <div class="info">
         <WechatOutlined
